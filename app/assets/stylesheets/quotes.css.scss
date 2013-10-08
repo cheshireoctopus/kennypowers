@@ -1,0 +1,24 @@
+// Place all the styles related to the quotes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  color: black;
+}
+
+#main {
+  width: 50%;
+  margin: 0 auto;
+  display:block;
+  font-size: 20px;
+  background: #E6E6E6;
+  padding: 20px;
+  font-family: tahoma;
+  border-bottom: 25px solid #0489B1;
+}
+
+#quote {
+  font-size: 40px;
+  font-family: futura;
+  color: #0489B1;
+}

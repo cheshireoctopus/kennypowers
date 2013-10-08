@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KennyPowersApp</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="logo">
+    <img src='/assets/powerisms-logo.png'>
+  </div>
+
+  <%= yield %>
+
+</body>
+</html>
