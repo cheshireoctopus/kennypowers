@@ -1,4 +1,4 @@
-class QuotesController < ApplicationController
+  class QuotesController < ApplicationController
 
   require 'open-uri'
 
